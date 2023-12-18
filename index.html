@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Call for Papers</title>
+<title>load</title>
 
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -32,7 +32,8 @@
                 window.location.href = "https://bimk.github.io/cec2024/";
             }else if (paramValue === "num") {
 				document.write("total visit times");
-				document.write("<span id=\"busuanzi_value_site_pv\"></span>")		
+				document.write(document.getElementById(busuanzi_value_site_pv));
+				// "<span id=\"busuanzi_value_site_pv\"></span>"
             }
         });
 </script>
