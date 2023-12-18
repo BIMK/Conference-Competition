@@ -26,11 +26,22 @@
                 window.location.href = "https://bimk.github.io/cec2024/";
             } else if (paramValue === "2") {
                 window.location.href = "https://github.com/ChengHust/IEEE-CEC-2024-Competition";
-            } else {
-                // 默认跳转的页面，如果参数值不匹配
-                window.location.href = "index.html";
-            }
+            } 
+			// else {
+   //              // 默认跳转的页面，如果参数值不匹配
+   //              window.location.href = "index.html";
+   //          }
         });
+</script>
+
+<script type="text/javascript">
+    var pgcount = localStorage.getItem("page_view_pgcount");
+    if (!pgcount) {
+        pgcount = 0;
+    }
+    pgcount++;
+    localStorage.setItem("page_view_pgcount", pgcount);
+    document.write("您是第：" + pgcount+"次访问");
 </script>
 
 </head>
