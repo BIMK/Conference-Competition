@@ -24,25 +24,14 @@
             // 根据参数值进行跳转
             if (paramValue === "1") {
                 window.location.href = "https://bimk.github.io/cec2024/";
-            } else if (paramValue === "2") {
+            }else if (paramValue === "2") {
                 window.location.href = "https://github.com/ChengHust/IEEE-CEC-2024-Competition";
             } 
-			// else {
-   //              // 默认跳转的页面，如果参数值不匹配
-   //              window.location.href = "index.html";
-   //          }
+			
         });
 </script>
 
-<script type="text/javascript">
-    var pgcount = localStorage.getItem("page_view_pgcount");
-    if (!pgcount) {
-        pgcount = 0;
-    }
-    pgcount++;
-    localStorage.setItem("page_view_pgcount", pgcount);
-    document.write("您是第：" + pgcount+"次访问");
-</script>
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 
 </head>
 
@@ -53,7 +42,9 @@
 			<div class="news-detial-tit text-align-center">
 				<p><br /></p>
 				<h1 style="font-family:serif;">Welcome!</h1>
-				<p style="font-family:serif;font-size: 20px;"></p>
+				<p style="font-family:serif;font-size: 20px;">
+					<span id="busuanzi_container_page_pv">本站总访问量<span id="busuanzi_container_page_pv"></span>次</span>
+				</p>
 				<p><br /></p>
 			</div>
 		</div>
