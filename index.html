@@ -32,8 +32,10 @@
                 window.location.href = "https://bimk.github.io/cec2024/";
             }else if (paramValue === "num") {
 				document.write("total visit times");
-				document.write(document.getElementById(busuanzi_value_site_pv));
-				// "<span id=\"busuanzi_value_site_pv\"></span>"
+				var temp = document.getElementById("busuanzi_value_site_pv");
+				document.write((string)document.getElementById("busuanzi_value_site_pv"));
+				alert(temp);
+				// "<span id="busuanzi_value_site_pv"></span>"
             }
         });
 </script>
