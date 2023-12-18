@@ -10,6 +10,8 @@
 <link href="base.css" rel="stylesheet" type="text/css" />
 <link href="common.css" rel="stylesheet" type="text/css" />
 
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
 <script>
         document.addEventListener("DOMContentLoaded", function() {
             // 获取当前页面的URL
@@ -23,44 +25,26 @@
 
             // 根据参数值进行跳转
             if (paramValue === "1") {
-                window.location.href = "https://bimk.github.io/cec2024/";
-            }else if (paramValue === "2") {
                 window.location.href = "https://github.com/ChengHust/IEEE-CEC-2024-Competition";
-            } 
-			
+            }else if (paramValue === "2") {
+                window.location.href = "https://bimk.github.io/cec2024/";
+            }else if (paramValue === "3") {
+                window.location.href = "https://bimk.github.io/cec2024/";
+            }else if (paramValue === "num") {
+				document.write("total visit times <span id="busuanzi_value_site_pv"></span>");
+            }
         });
 </script>
 
-<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
 
 </head>
 
 <body>
-<div class="content">
-	<div class="w1000 news-detial fontSize16 text-china">
-		<p><br /></p>
-		<p><br /></p>
-		<p><br /></p>
-		<p><br /></p>
-		<p><br /></p>
-		<p><br /></p>
-		<p><br /></p>
-		<div frag="面板"><div frag="窗口">
-			<div class="news-detial-tit text-align-center">
-				<p><br /></p>
-				<h1 style="font-family:serif;font-size: 60px;">Welcome!</h1>
-				<p style="font-family:serif;font-size: 20px;">
-					total visit times <span id="busuanzi_value_site_pv"></span>
-<!-- 					本站访客数<span id="busuanzi_value_site_uv"></span>人次
-					本文总阅读量<span id="busuanzi_value_page_pv"></span>次 -->
-				</p>
-				<p><br /></p>
-			</div>
-		</div>
-	</div>
-	<!-- <div class="footer-block02">
-	        <div class="w1000 text-align-center">Copyright ownership：Anhui university Research institute——BIMK </div>
-	</div> -->
+	<p style="font-family:serif;font-size: 20px;">
+		Loading...
+	</p>
+
 </div>
 
   
