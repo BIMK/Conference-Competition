@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Call for Papers</title>
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link href="base.css" rel="stylesheet" type="text/css" />
+<link href="common.css" rel="stylesheet" type="text/css" />
+
+<script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // 获取当前页面的URL
+            var currentURL = window.location.href;
+
+            // 解析URL中的参数
+            var urlParams = new URLSearchParams(window.location.search);
+            
+            // 获取参数值
+            var paramValue = urlParams.get("page");
+
+            // 根据参数值进行跳转
+            if (paramValue === "1") {
+                window.location.href = "https://bimk.github.io/cec2024/";
+            } else if (paramValue === "2") {
+                window.location.href = "https://github.com/ChengHust/IEEE-CEC-2024-Competition";
+            } else {
+                // 默认跳转的页面，如果参数值不匹配
+                window.location.href = "index.html";
+            }
+        });
+</script>
+
+</head>
+
+<body>
+<div class="content">
+	<div class="w1000 news-detial fontSize16 text-china">
+		<div frag="面板"><div frag="窗口">
+			<div class="news-detial-tit text-align-center">
+				<p><br /></p>
+				<h1 style="font-family:serif;">Welcome!</h1>
+				<p style="font-family:serif;font-size: 20px;"></p>
+				<p><br /></p>
+			</div>
+		</div>
+	</div>
+</div>
+
+  
+</body>
+</html>
+
+ 
